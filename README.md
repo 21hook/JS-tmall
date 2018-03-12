@@ -1,10 +1,18 @@
 # JS-tmall
 基于HTML, CSS, &amp; JS构建的一个具有15个页面，近30个页面组件的desktop site.
 
+[技术栈](#技术栈)
 
 [目录架构](#目录架构)
 
 [前台页面截图](#前台页面截图)
+
+[后续功能](#后续功能)
+
+[License](#license)
+
+### 技术栈
+HTML + CSS + JS + jQuery
 
 ### 目录架构
 * components
@@ -34,9 +42,11 @@
     * order
         * order-header
         * order-list
-    * utilities
+    * utilities /utility styles
+* dist 
+* .jshintrc
+* .package.json
   
- 
 ### 前台页面截图
 ![initial](screenshots/initiial.png)
 ![category](screenshots/category.png)
@@ -53,7 +63,11 @@
 ![product list](screenshots/login.png)
 ![product list](screenshots/register.png)
 
-
+### 后续功能
 readme文件补充中 ...
 
 后台开发中 ...
+
+
+### License
+[MIT](LICENSE)
