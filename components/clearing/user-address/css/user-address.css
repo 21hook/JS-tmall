@@ -1,0 +1,78 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+a {
+  color: #999;
+}
+a:hover {
+  text-decoration: none;
+  color: #c40000;
+}
+.price-text {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #c40000;
+}
+.button-default {
+  color: #fff;
+  background-color: #c40000;
+  border: 1px solid #c40000;
+  font-size: 12px;
+  width: 50px;
+  height: 30px;
+}
+div.user-addr {
+  margin: 20px auto;
+  max-width: 1013px;
+}
+div.user-addr form {
+  clear: right;
+}
+fieldset.user-addr-form legend {
+  border: 0;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 30px;
+}
+fieldset.user-addr-form label span {
+  color: red;
+}
+fieldset.user-addr-form input,
+fieldset.user-addr-form textarea {
+  outline: none;
+  font-size: 12px;
+}
+fieldset.user-addr-form input {
+  width: 200px;
+}
+fieldset.user-addr-form input::-webkit-outer-spin-button,
+fieldset.user-addr-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+fieldset.user-addr-form textarea {
+  width: 400px;
+  height: 40px;
+  margin-left: 100px;
+}
+fieldset.user-addr-form p {
+  margin-left: 20px;
+  font-size: 0;
+}
+fieldset.user-addr-form p label {
+  font-weight: normal;
+  font-size: 12px;
+  display: inline-block;
+  width: 100px;
+}
+fieldset.user-addr-form p.user-addr-detail {
+  position: relative;
+}
+fieldset.user-addr-form p.user-addr-detail label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

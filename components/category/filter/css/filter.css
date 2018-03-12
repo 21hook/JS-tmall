@@ -1,0 +1,65 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+a {
+  color: #999;
+}
+a:hover {
+  text-decoration: none;
+  color: #c40000;
+}
+.price-text {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #c40000;
+}
+.button-default {
+  color: #fff;
+  background-color: #c40000;
+  border: 1px solid #c40000;
+  font-size: 12px;
+  width: 50px;
+  height: 30px;
+}
+.category-container {
+  max-width: 1013px;
+  margin: 0 auto;
+}
+div.category-sort-bar {
+  margin: 40px 20px 20px 20px;
+  padding: 4px;
+  background-color: #faf9f9;
+}
+div.category-sort-bar table.filter-bar td.filter-selection {
+  font-size: 0;
+  padding-right: 6px;
+}
+div.category-sort-bar table.filter-bar span.glyphicon-arrow-down {
+  font-size: 10px;
+}
+div.category-sort-bar table.filter-bar a:first-child {
+  background-color: #f1edec;
+}
+div.category-sort-bar table.filter-bar a {
+  box-sizing: content-box;
+  display: inline-block;
+  height: 17px;
+  font-size: 12px;
+  border: 1px solid #cccc;
+  padding: 3px;
+  color: #806f66;
+}
+div.category-sort-bar table.filter-bar a:hover {
+  background-color: #f1edec;
+}
+div.category-sort-bar table.filter-bar td.filter-input input {
+  display: inline-block;
+  width: 50px;
+  height: 17px;
+  box-sizing: content-box;
+}
+div.category-sort-bar table.filter-bar td.filter-input input:focus {
+  outline: none;
+}

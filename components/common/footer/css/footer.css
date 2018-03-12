@@ -1,0 +1,82 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+a {
+  color: #999;
+}
+a:hover {
+  text-decoration: none;
+  color: #c40000;
+}
+.price-text {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #c40000;
+}
+.button-default {
+  color: #fff;
+  background-color: #c40000;
+  border: 1px solid #c40000;
+  font-size: 12px;
+  width: 50px;
+  height: 30px;
+}
+div.footer {
+  margin: 0;
+  border-top: 1px solid #e7e7e7;
+}
+div.footer-ensure {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+div.footer-desc {
+  margin: 0 20px;
+  padding: 30px;
+  border-top: 1px solid #e7e7e7;
+}
+div.footer-desc div.descColumn {
+  width: 20%;
+  float: left;
+  padding-left: 15px;
+}
+div.footer-desc div.descColumnTitle span.descColumnTitle {
+  color: #646464;
+  font-weight: bold;
+  font-size: 16px;
+}
+div.footer-desc a {
+  display: block;
+  padding-top: 3px;
+}
+div.copyright {
+  background-color: #000;
+  border-top: 2px solid #c40000;
+}
+div.copyright span.slash {
+  color: #fff;
+}
+div.copyright div.external-link {
+  margin-left: 10px;
+  padding: 10px 0;
+}
+div.copyright div.external-link a {
+  color: #fff;
+  padding: 0 5px;
+}
+div.license {
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+div.license span {
+  color: #a4a4a4;
+}
+div.license .copyRightYear {
+  margin: 10px 0;
+  color: #686868;
+}
+img.cateye {
+  margin-left: 20px;
+}

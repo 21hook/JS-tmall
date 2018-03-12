@@ -1,0 +1,79 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+a {
+  color: #999;
+}
+a:hover {
+  text-decoration: none;
+  color: #c40000;
+}
+.price-text {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #c40000;
+}
+.button-default {
+  color: #fff;
+  background-color: #c40000;
+  border: 1px solid #c40000;
+  font-size: 12px;
+  width: 50px;
+  height: 30px;
+}
+div.categoryMenu {
+  margin-left: 20px;
+  width: 200px;
+  background-color: #e2e2e3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+div.categoryMenu a {
+  color: #000;
+}
+div.categoryMenu a:hover {
+  color: lightskyblue;
+  text-decoration: none;
+}
+div.categoryMenu div.eachCategory {
+  line-height: 30px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+div.categoryMenu div.eachCategory:hover {
+  background-color: #fff;
+}
+div.categoryMenu div.eachCategory span {
+  margin: 10px;
+}
+div.productsAsideCategorys {
+  display: none;
+  width: 800px;
+  height: 510px;
+  background-color: #fff;
+  margin-left: 220px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+div.productsAsideCategorys div.row {
+  margin: 20px 80px 0 80px;
+}
+div.productsAsideCategorys div.row a {
+  color: #999;
+  font-size: 14px;
+  margin: 8px;
+}
+div.productsAsideCategorys div.row a:hover {
+  color: #c40000;
+  text-decoration: none;
+}
+div.productsAsideCategorys div.seperator {
+  margin-top: 20px;
+  border-bottom: dashed 1px #e7e7e7;
+}

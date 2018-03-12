@@ -1,0 +1,12 @@
+div.carousel {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+}
+div.carousel img {
+  display: inline-block;
+  height: 510px !important;
+}
+div.carousel ol {
+  position: absolute;
+}

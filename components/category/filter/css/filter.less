@@ -1,0 +1,45 @@
+@import "../../../utilities/utilities";
+
+.category-container {
+  max-width: 1013px;
+  margin: 0 auto;
+}
+
+div.category-sort-bar {
+  margin: 40px 20px 20px 20px;
+  padding: 4px;
+  background-color: #faf9f9;
+  table.filter-bar {
+    td.filter-selection {
+      font-size: 0; // CSS hack:handle the whitespace issues
+      padding-right: 6px;
+    }
+    span.glyphicon-arrow-down {
+      font-size: 10px;
+    }
+    a:first-child {
+      background-color: #f1edec;
+    }
+    a {
+      box-sizing: content-box;
+      display: inline-block;
+      height: 17px;
+      font-size: 12px;
+      border: 1px solid #cccc;
+      padding: 3px;
+      color: #806f66;
+      &:hover {
+        background-color: #f1edec;
+      }
+    }
+    td.filter-input input {
+      display: inline-block;
+      width: 50px;
+      height: 17px;
+      box-sizing: content-box;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

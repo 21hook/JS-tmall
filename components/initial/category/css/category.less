@@ -1,0 +1,61 @@
+@import "../../../utilities/utilities";
+
+div.categoryMenu {
+  margin-left: 20px;
+  width: 200px;
+  background-color: #e2e2e3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  a {
+    color: #000;
+    &:hover {
+      color: lightskyblue;
+      text-decoration: none;
+    }
+  }
+
+  div.eachCategory {
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+    &:hover {
+      background-color: #fff;
+    }
+    span {
+      margin: 10px;
+    }
+  }
+
+}
+
+div.productsAsideCategorys {
+  display: none;
+  width: 800px;
+  height: 510px;
+  background-color: #fff;
+  margin-left: 220px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  div.row {
+    margin: 20px 80px 0 80px;
+    a {
+      color: #999;
+      font-size: 14px;
+      margin: 8px;
+      &:hover {
+        color: @theme-color;
+        text-decoration: none;
+      }
+    }
+  }
+  div.seperator {
+    margin-top: 20px;
+    border-bottom: dashed 1px #e7e7e7;
+  }
+}
+
+

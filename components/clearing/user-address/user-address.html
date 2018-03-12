@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/user-address.css" rel="stylesheet">
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="user-addr">
+    <img src="http://how2j.cn/tmall/img/site/buyflow.png" class="pull-right">
+    <form action="">
+        <fieldset class="user-addr-form">
+            <legend>输入收货地址</legend>
+            <p class="user-addr-detail">
+                <label for="user-addr-detail">详细地址<span>*</span></label>
+                <textarea name="user-addr-detail" id="user-addr-detail" cols="30" rows="2"
+                          placeholder="建议您如实填写详细收货地址，例如接到名称，门牌好吗，楼层和房间号等信息">
+                </textarea>
+            </p>
+            <p class="user-addr-post">
+                <label for="user-addr-post">邮政编码<span>*</span></label>
+                <input type="number" name="user-addr-post" id="user-addr-post"
+                placeholder="如果您不清楚邮递区号，请填写000000">
+            </p>
+            <p class="user-order-recipient">
+                <label for="username">收货人姓名<span>*</span></label>
+                <input type="text" name="username" id="username" placeholder="长度不超过25个字符">
+            </p>
+            <p class="user-phone-num">
+                <label for="user-phone-num">手机号码<span>*</span></label>
+                <input type="number" name="user-phone-num" id="user-phone-num" placeholder="请输入11位手机号码">
+            </p>
+        </fieldset>
+    </form>
+</div>
+
+
+</body>
+</html>
+

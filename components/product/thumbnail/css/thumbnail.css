@@ -1,0 +1,23 @@
+div.product-thumbnail {
+  margin: 40px 20px;
+  float: left;
+  width: 400px;
+}
+div.product-thumbnail div.product-img img {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border: 1px solid #f2f2f2;
+}
+div.product-thumbnail div.product-indicator {
+  margin: 20px auto;
+  width: 80%;
+}
+div.product-thumbnail div.product-indicator img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+}
+div.product-thumbnail div.product-indicator img:hover {
+  border: 2px solid #000;
+}

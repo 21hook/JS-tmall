@@ -1,0 +1,50 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+a {
+    color: #999;
+}
+a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+img#simpleLogo {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 140px;
+}
+div.simpleSearchDiv {
+    margin: 10px 20px 40px;
+    padding: 1px;
+    width: 300px;
+    height: 40px;
+    background-color: #c40000;
+}
+div.simpleSearchDiv input {
+    margin: 2px;
+    width:225px;
+    height: 34px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+div.simpleSearchDiv button {
+    width: 60px;
+    border: 1px solid transparent;
+    background-color: #c40000;
+    color: #fff;
+    font-size: 14px;
+}
+
+div.searchBelow {
+    margin-top: 3px;
+    margin-left: -20px;
+}
+div.searchBelow a {
+    padding: 0 20px;
+}
+div.searchBelow span {
+    color: #999;
+}

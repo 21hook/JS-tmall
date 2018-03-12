@@ -1,0 +1,67 @@
+@import "../../../utilities/utilities";
+
+div.user-addr {
+  margin: 20px auto;
+  max-width: 1013px;
+  form {
+    clear: right;
+  }
+}
+
+fieldset.user-addr-form {
+  legend {
+    border: 0;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  label span {
+    color: red;
+  }
+  input, textarea {
+    outline: none;
+    font-size: 12px;
+  }
+  input {
+    width: 200px;
+  }
+  input::-webkit-outer-spin-button,//unstyle the style
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+  }
+  textarea {
+    width: 400px;
+    height: 40px;
+    margin-left: 100px;
+  }
+  p {
+    margin-left: 20px;
+    font-size: 0;//css hack: handle inline-block whitespace issue
+    label {
+      font-weight: normal;
+      font-size: 12px;
+      display: inline-block;
+      width: 100px;
+    }
+  }
+  p.user-addr-detail {
+    position: relative;
+    label {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  p.user-addr-post {
+
+  }
+  p.user-order-recipient {
+
+  }
+  p.user-phone-num {
+
+  }
+
+}

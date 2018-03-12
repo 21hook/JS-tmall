@@ -1,0 +1,131 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+a {
+  color: #999;
+}
+a:hover {
+  text-decoration: none;
+  color: #c40000;
+}
+.price-text {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #c40000;
+}
+.button-default {
+  color: #fff;
+  background-color: #c40000;
+  border: 1px solid #c40000;
+  font-size: 12px;
+  width: 50px;
+  height: 30px;
+}
+div.clearing-container {
+  max-width: 1013px;
+  margin: 60px auto;
+  color: #000;
+  position: relative;
+}
+.clearing-orders-top {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+table.clearing-order {
+  width: 100%;
+}
+table.clearing-order thead tr {
+  border: none;
+}
+table.clearing-order thead th {
+  font-size: 12px;
+  font-weight: normal;
+  padding: 20px;
+}
+table.clearing-order tbody tr {
+  border: 1px solid #E5E5E5;
+}
+table.clearing-order tbody td {
+  padding: 20px 20px 20px 20px;
+}
+table.clearing-order td.clearing-product-thumbnail {
+  position: relative;
+}
+table.clearing-order td.clearing-product-thumbnail img:last-child {
+  padding: 1px;
+  border: 1px solid #EEEEEE;
+  width: 80px;
+  height: 80px;
+}
+table.clearing-order td.clearing-product-info a {
+  color: #3C3C3C;
+  cursor: pointer;
+}
+table.clearing-order td.clearing-product-info a:hover {
+  color: #c40000;
+  text-decoration: underline;
+}
+table.clearing-order td.clearing-product-info div.clearing-product-assure {
+  margin-top: 40px;
+}
+table.clearing-order td.clearing-product-price div:first-child {
+  text-decoration: line-through;
+  color: #9C9C9C;
+  font-weight: bold;
+  font-size: 14px;
+}
+table.clearing-order td.clearing-product-num input[type='text'] {
+  width: 42px;
+  border: 1px solid #aaa;
+  display: inline-block;
+  outline: none;
+  font-size: 12px;
+}
+table.clearing-order td.clearing-product-num button {
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  font-size: 12px;
+}
+table.clearing-order td.clearing-product-clear {
+  cursor: pointer;
+}
+table.clearing-order input[type='checkbox'] {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -1;
+}
+.clearing-order-bottom {
+  background-color: #E5E5E5;
+  padding-top: 16px;
+  padding-left: 20px;
+  height: 50px;
+  margin: 20px auto;
+}
+.clearing-order-bottom input[type='checkbox'] {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -1;
+}
+.clearing-order-bottom div.clearing-order-total-price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.clearing-order-bottom div.clearing-order-total-price span.price-text + span {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #c40000;
+}

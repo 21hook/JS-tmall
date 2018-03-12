@@ -1,0 +1,69 @@
+@import "../../../utilities/utilities";
+
+div.footer {
+  margin: 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+div.footer-ensure {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+div.footer-desc { //group/nest the descents into their ancestor
+  margin: 0 20px;
+  padding: 30px;
+  border-top: 1px solid #e7e7e7;
+  div.descColumn {
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+
+  }
+  div.descColumnTitle {
+    span.descColumnTitle {
+      color: #646464;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+  }
+  a {
+    display: block;
+    padding-top: 3px;
+  }
+}
+
+div.copyright {
+  background-color: #000;
+  border-top: 2px solid @theme-color;//refer to the variable
+  span.slash {
+    color: #fff;
+  }
+  div.external-link {//nest the descents into their ancestor
+    margin-left: 10px;
+    padding: 10px 0;
+    a {
+      color: #fff;
+      padding: 0 5px;
+    }
+  }
+}
+
+div.license {
+  margin-left: 10px;
+  padding-bottom: 30px;
+  span {
+    color: #a4a4a4;
+  }
+  .copyRightYear {
+    margin: 10px 0;
+    color: #686868;
+  }
+}
+
+img.cateye {
+  margin-left: 20px;
+}
+

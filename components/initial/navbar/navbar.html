@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+<div class="headbar">
+    <img class="catear" id="catear" src="http://how2j.cn/tmall/img/site/catear.png">
+    <span class="category">
+                <span class="glyphicon glyphicon-th-list" style="margin-left:10px"></span>
+               商品分类
+            </span>
+    <span class="menu">
+                <a href=""><img src="http://how2j.cn/tmall/img/site/chaoshi.png" alt=""></a>
+            </span>
+    <span class="menu">
+                <a href=""><img src="http://how2j.cn/tmall/img/site/guoji.png" alt=""></a>
+            </span>
+    <span class="menu">
+                <a href="">平板电视</a>
+            </span>
+    <span class="menu">
+                <a href="">马桶</a>
+            </span>
+    <span class="menu">
+                <a href="">沙发</a>
+            </span>
+    <span class="menu">
+                <a href="">电热水器</a>
+            </span>
+    <script>
+        $(function () {
+            $('.headbar').css({position: 'relative'});
+            $('.headbar a').mouseover(function () {
+                let headLink = $(this);
+                let catear = $('#catear');
+                let imgLeft = headLink.position().left + (headLink.width() - catear.width()) /2;
+                let imgTop = -6;
+
+                catear.css({
+                    position: 'absolute',
+                    top: imgTop + 'px',
+                    left: imgLeft + 'px',
+                    zIndex: -1
+                }).fadeIn('slow');//for updating the opacity property
+            }).mouseleave(function () {
+                $('#catear').hide();
+            });
+        });
+    </script>
+</div>
+</body>
+</html>
+
